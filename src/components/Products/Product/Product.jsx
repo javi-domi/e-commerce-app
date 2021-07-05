@@ -3,11 +3,11 @@ import { FaCartPlus } from "react-icons/fa";
 import styles from "./product.module.css";
 
 const Product = ({ product }) => {
-  const { name, description, price, image } = product;
+  const { name, description, price, media } = product;
   return (
     <div className={styles.card}>
       <div className={styles.productImage}>
-        <img src={image} alt={name} className={styles.image} />
+        <img src={media.source} alt={name} className={styles.image} />
       </div>
       <div className={styles.productInfo}>
         <div className={styles.cart}>
@@ -16,8 +16,8 @@ const Product = ({ product }) => {
             <FaCartPlus />
           </button>
         </div>
-        <h3>{price}</h3>
-        <p>{description}</p>
+        <h3>{price.formatted_with_symbol}</h3>
+        <p dangerouslySetInnerHTML={{ __html: description }} />
       </div>
     </div>
   );

@@ -3,6 +3,9 @@
   height: auto;
   display: flex;
   flex-direction: column;
+  margin-top: 1rem;
+  border-bottom: 1px solid black;
+  padding: 10px;
 }
 .productImage {
   width: 300px;
@@ -18,20 +21,21 @@
 }
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 400;
 }
 h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2 rem;
+  font-size: 1 rem;
   font-weight: 700;
   color: rgb(58, 58, 58);
 }
 p {
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
   margin-top: 12px;
+  color: rgb(66, 66, 66);
 }
 .cart {
   display: flex;
@@ -45,4 +49,9 @@ button {
   height: auto;
   font-size: 1.4rem;
   text-align: center;
+  cursor: pointer;
+  transition: ease all 0.5;
+}
+button:hover {
+  color: rgb(3, 139, 3);
 }

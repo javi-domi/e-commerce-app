@@ -6,8 +6,6 @@ main {
   justify-content: space-around;
 }
 .cardProduto {
+  margin-top: 1rem;
   margin-right: 1rem;
-}
-.cardProduto:last-child {
-  margin-right: 0;
 }
