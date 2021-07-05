@@ -1,0 +1,18 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+.logo {
+  font-family: "Dancing Script", cursive;
+  font-size: 4rem;
+}
+.shoppingCart {
+  font-size: 1.6rem;
+}
+span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  margin-left: 0.2rem;
+}
