@@ -3,7 +3,7 @@
 Projeto de teste.
 Desenvolvido com React utilizando Commerce.JS como Backend as a Service para fornecer os produtos e criar a API que o aplicativo consume.
 
-##Executar:
+## Executar:
 ### `yarn`
 Para instalar as dependencias
 
